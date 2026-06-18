@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Post Long Run Recovery",
+    "areas": [
+      "hips",
+      "calves",
+      "hamstrings"
+    ],
+    "duration_mins": 15,
+    "exercises": [
+      {
+        "name": "Hip Flexor Stretch",
+        "duration_secs": 60,
+        "cue": "Lunge, drive hips forward gently"
+      },
+      {
+        "name": "Standing Calf Stretch",
+        "duration_secs": 45,
+        "cue": "Lean into wall, heel flat"
+      },
+      {
+        "name": "Supine Hamstring Stretch",
+        "duration_secs": 60,
+        "cue": "Lie on back, pull leg toward chest"
+      },
+      {
+        "name": "Figure Four Glute Stretch",
+        "duration_secs": 60,
+        "cue": "Cross ankle over opposite knee"
+      },
+      {
+        "name": "Foam Roll IT Band",
+        "duration_secs": 90,
+        "cue": "Slow rolls, pause on tight spots"
+      },
+      {
+        "name": "Downward Dog Calf Pedal",
+        "duration_secs": 60,
+        "cue": "Alternate pressing heels to floor"
+      }
+    ]
+  },
+  {
+    "name": "Pre Long Run Activation",
+    "areas": [
+      "glutes",
+      "ankles"
+    ],
+    "duration_mins": 10,
+    "exercises": [
+      {
+        "name": "Glute Bridge",
+        "duration_secs": 45,
+        "cue": "Drive hips up, squeeze glutes at top"
+      },
+      {
+        "name": "Clamshells",
+        "duration_secs": 45,
+        "cue": "Keep pelvis still, rotate knee up"
+      },
+      {
+        "name": "Ankle Circles",
+        "duration_secs": 30,
+        "cue": "Full range, both directions"
+      },
+      {
+        "name": "Leg Swings Front-Back",
+        "duration_secs": 30,
+        "cue": "Hold wall, swing freely"
+      },
+      {
+        "name": "Leg Swings Side-Side",
+        "duration_secs": 30,
+        "cue": "Cross body, controlled"
+      },
+      {
+        "name": "High Knees March",
+        "duration_secs": 30,
+        "cue": "Exaggerated knee lift, tall posture"
+      }
+    ]
+  },
+  {
+    "name": "Upper Body & Thoracic Mobility",
+    "areas": [
+      "shoulders",
+      "thoracic"
+    ],
+    "duration_mins": 12,
+    "exercises": [
+      {
+        "name": "Thoracic Extension over Foam Roller",
+        "duration_secs": 60,
+        "cue": "Roll between shoulder blades, arms crossed"
+      },
+      {
+        "name": "Thread the Needle",
+        "duration_secs": 45,
+        "cue": "From all-fours, slide arm under body"
+      },
+      {
+        "name": "Doorway Chest Stretch",
+        "duration_secs": 45,
+        "cue": "Arms at 90 degrees, lean gently forward"
+      },
+      {
+        "name": "Cat-Cow",
+        "duration_secs": 45,
+        "cue": "Slow and controlled, full range"
+      },
+      {
+        "name": "Shoulder Circles",
+        "duration_secs": 30,
+        "cue": "Large circles, both directions"
+      },
+      {
+        "name": "Chin Tucks",
+        "duration_secs": 30,
+        "cue": "Pull chin straight back, hold 2 sec"
+      }
+    ]
+  },
+  {
+    "name": "Full Body Flexibility",
+    "areas": [
+      "full_body"
+    ],
+    "duration_mins": 30,
+    "exercises": [
+      {
+        "name": "Child's Pose",
+        "duration_secs": 60,
+        "cue": "Reach arms forward, breathe into back"
+      },
+      {
+        "name": "Hip Flexor Stretch",
+        "duration_secs": 60,
+        "cue": "Deep lunge, front knee over ankle"
+      },
+      {
+        "name": "Seated Forward Fold",
+        "duration_secs": 60,
+        "cue": "Hinge at hips, soft knees"
+      },
+      {
+        "name": "Pigeon Pose",
+        "duration_secs": 90,
+        "cue": "Square hips, breathe through discomfort"
+      },
+      {
+        "name": "Supine Twist",
+        "duration_secs": 60,
+        "cue": "Shoulders flat, look away from knees"
+      },
+      {
+        "name": "Standing Side Stretch",
+        "duration_secs": 30,
+        "cue": "Arm overhead, lean to opposite side"
+      },
+      {
+        "name": "Doorway Chest Stretch",
+        "duration_secs": 45,
+        "cue": "Arms at 90 degrees"
+      },
+      {
+        "name": "Calf Stretch",
+        "duration_secs": 45,
+        "cue": "Straight leg then bent knee version"
+      },
+      {
+        "name": "Ankle Circles",
+        "duration_secs": 30,
+        "cue": "Full range both directions"
+      }
+    ]
+  },
+  {
+    "name": "Running Foundation",
+    "areas": [
+      "calves",
+      "hips",
+      "ankles"
+    ],
+    "duration_mins": 10,
+    "exercises": [
+      {
+        "name": "Standing Calf Raise",
+        "duration_secs": 30,
+        "cue": "Slow up, controlled down"
+      },
+      {
+        "name": "Hip Flexor Stretch",
+        "duration_secs": 45,
+        "cue": "Lunge position, tall spine"
+      },
+      {
+        "name": "Ankle Alphabet",
+        "duration_secs": 30,
+        "cue": "Trace A-Z with your big toe"
+      },
+      {
+        "name": "Single-Leg Balance",
+        "duration_secs": 30,
+        "cue": "Eyes open then closed"
+      },
+      {
+        "name": "Calf Stretch",
+        "duration_secs": 45,
+        "cue": "Against wall, straight leg"
+      },
+      {
+        "name": "Hip Circle",
+        "duration_secs": 30,
+        "cue": "Hands on hips, large slow circles"
+      }
+    ]
+  },
+  {
+    "name": "Hip Opening Flow",
+    "areas": [
+      "hips"
+    ],
+    "duration_mins": 15,
+    "exercises": [
+      {
+        "name": "Deep Squat Hold",
+        "duration_secs": 60,
+        "cue": "Heels flat, elbows push knees out"
+      },
+      {
+        "name": "Pigeon Pose Left",
+        "duration_secs": 90,
+        "cue": "Square hips forward"
+      },
+      {
+        "name": "Pigeon Pose Right",
+        "duration_secs": 90,
+        "cue": "Square hips forward"
+      },
+      {
+        "name": "Lateral Lunge",
+        "duration_secs": 45,
+        "cue": "Sit into hip, keep chest up"
+      },
+      {
+        "name": "Figure Four Stretch",
+        "duration_secs": 60,
+        "cue": "Ankle over opposite knee, flex foot"
+      },
+      {
+        "name": "Fire Hydrant",
+        "duration_secs": 30,
+        "cue": "From all-fours, lift knee to side"
+      }
+    ]
+  },
+  {
+    "name": "Ankle & Foot Care",
+    "areas": [
+      "ankles"
+    ],
+    "duration_mins": 10,
+    "exercises": [
+      {
+        "name": "Ankle Circles",
+        "duration_secs": 45,
+        "cue": "Seated, full range both directions"
+      },
+      {
+        "name": "Towel Scrunches",
+        "duration_secs": 30,
+        "cue": "Scrunch towel with toes, 10 reps"
+      },
+      {
+        "name": "Heel Raises",
+        "duration_secs": 45,
+        "cue": "Slow 3-count up and down"
+      },
+      {
+        "name": "Toe Spread",
+        "duration_secs": 30,
+        "cue": "Spread toes wide, hold 5 sec"
+      },
+      {
+        "name": "Single-Leg Calf Raise",
+        "duration_secs": 45,
+        "cue": "Off step edge, full range"
+      },
+      {
+        "name": "Peroneal Stretch",
+        "duration_secs": 45,
+        "cue": "Foot inverted, feel outside of ankle"
+      }
+    ]
+  },
+  {
+    "name": "Morning Wake-Up",
+    "areas": [
+      "full_body"
+    ],
+    "duration_mins": 8,
+    "exercises": [
+      {
+        "name": "Cat-Cow",
+        "duration_secs": 45,
+        "cue": "Breathe slowly, wake up the spine"
+      },
+      {
+        "name": "Child's Pose",
+        "duration_secs": 30,
+        "cue": "Arms long, breathe into back"
+      },
+      {
+        "name": "Hip Circles Standing",
+        "duration_secs": 30,
+        "cue": "Hands on hips, big slow circles"
+      },
+      {
+        "name": "Arm Swings",
+        "duration_secs": 20,
+        "cue": "Across body and out wide"
+      },
+      {
+        "name": "Leg Swings",
+        "duration_secs": 20,
+        "cue": "Hold wall, swing forward and back"
+      },
+      {
+        "name": "Gentle Neck Rolls",
+        "duration_secs": 20,
+        "cue": "Half circles, ear to shoulder"
+      }
+    ]
+  }
+]
