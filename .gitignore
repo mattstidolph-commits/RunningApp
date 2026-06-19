@@ -4,6 +4,7 @@ __pycache__/
 backend/venv/
 backend/running.db
 backend/.env
+backend/.garmintoken/
 node_modules/
 frontend/dist/
 .env
