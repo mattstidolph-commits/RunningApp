@@ -1,4 +1,6 @@
 import os
+import pathlib
+from requests import HTTPError
 from garminconnect import Garmin
 
 TOKEN_DIR = ".garmintoken"
@@ -18,11 +20,31 @@ def _get_client() -> Garmin:
         raise RuntimeError("GARMIN_EMAIL and GARMIN_PASSWORD must be set in .env")
 
     api = Garmin(email, password)
+    token_path = pathlib.Path(TOKEN_DIR)
+    token_exists = token_path.exists() and any(token_path.iterdir())
+
+    if token_exists:
+        try:
+            api.login(TOKEN_DIR)
+            return api
+        except HTTPError as e:
+            if e.response is not None and e.response.status_code == 429:
+                raise RuntimeError(
+                    "Garmin is rate-limiting requests. Please wait a few minutes before syncing again."
+                ) from e
+            # Token is invalid/expired — fall through to full login
+        except Exception:
+            pass  # Token unreadable — fall through to full login
+
     try:
-        api.login(TOKEN_DIR)
-    except Exception:
         api.login()
-        api.garth.dump(TOKEN_DIR)
+    except HTTPError as e:
+        if e.response is not None and e.response.status_code == 429:
+            raise RuntimeError(
+                "Garmin is rate-limiting requests. Please wait a few minutes before syncing again."
+            ) from e
+        raise
+    api.garth.dump(TOKEN_DIR)
     return api
 
 
